@@ -28,8 +28,18 @@ console.log("Customer Totals:",totals)
 
 //Implement and populate arrays for bills, tips, and totals dataset #2
 let bills2 = [125, 555, 44]
-const tips2 = bills2.map(bills2=>calculateTip(bills2))
-let totals2 = bills2.map((bills2,index) => ((bills2 + tips2[index])))
-console.log("Customer Bills Dataset 2:",bills2)
+const tips2 = bills2.map(bills2=>calculateTi (bills2 + tips2[index])))
+console.log("Customer Bills Dataset 2:",ills2)
 console.log("Customer Tips Dataset 2:",tips2)
 console.log("Customer Totals Dataset 2:",totals2)
+
+
+
+//Implement calculateAverageSales function
+function calculateAverageSales(salesRecords)
+{let totalSales = salesRecords.reduce((sum,sales)=> sum + sales,0};
+let Average = totalSales/salesRecords.length;
+return Average;
+let salesRecordsData = [111,222,333,444]
+let AverageSales = calculateAverageSales(salesRecordsData);
+console.log('Average Sales',AverageSales)
